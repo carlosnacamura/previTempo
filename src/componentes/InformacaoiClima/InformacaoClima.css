@@ -1,0 +1,75 @@
+.climaContainer {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  border-radius: 12px;
+  padding: 30px;
+  margin: 20px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  border: 1px solid #333;
+}
+
+h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+}
+
+.climaInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+
+.climaInfo img {
+  width: 80px;
+  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.2));
+}
+
+.temperatura {
+  font-weight: bold;
+  font-size: 3.5rem;
+  color: #00bcd4;
+  line-height: 1;
+}
+
+.descricao {
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #aaa;
+}
+
+.climaDetalhes {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px 30px;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+}
+
+.climaDetalhes p {
+  font-size: 1rem;
+  padding: 8px 0;
+
+  border-bottom: 1px dotted #2a2a2a;
+}
+
+.climaDetalhes p:last-child {
+  border-bottom: none;
+}
+
+.climaDetalhes p span.label {
+  font-weight: 400;
+  color: #888;
+  margin-right: 5px;
+}
+.climaDetalhes p span.valor {
+  font-weight: 600;
+  color: #f0f0f0;
+}

@@ -1,0 +1,95 @@
+body {
+  background-color: #121212;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1000px;
+  padding: 30px;
+
+  margin: 50px auto;
+  text-align: center;
+
+  background-color: #1e1e1e;
+
+  border-radius: 12px;
+
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+  font-size: 3.5em;
+
+  color: #4a90e2;
+  margin-bottom: 40px;
+
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+input {
+  padding: 12px 15px;
+
+  border-radius: 8px 0 0 8px;
+  border: 1px solid #444;
+
+  background-color: #2a2a2a;
+  max-width: 350px;
+  width: 70%;
+  color: #e0e0e0;
+  outline: none;
+  font-size: 1em;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 8px rgba(74, 144, 226, 0.5);
+}
+
+input::placeholder {
+  color: #888;
+}
+
+button {
+  background-color: #4a90e2;
+  border: none;
+  padding: 12px 20px;
+
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: 600;
+  transition: background-color 0.3s, transform 0.1s;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+}
+
+button:hover {
+  background-color: #357bd7;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+.weather-card {
+  background-color: #2a2a2a;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}

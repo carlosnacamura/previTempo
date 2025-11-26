@@ -1,0 +1,81 @@
+.climaContainer.cincoDias {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  border-radius: 12px;
+  padding: 30px;
+  margin: 20px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.tituloPrevisao {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #00bcd4;
+  text-align: center;
+}
+
+.previsaoDiariaGrid {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.diaPrevisaoCard {
+  flex: 1 1 18%;
+  min-width: 120px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  padding: 15px 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+
+  background-color: #2a2a2a;
+}
+
+.diaPrevisaoCard:hover {
+  background-color: #383838;
+}
+
+.diaSemana {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  color: #f0f0f0;
+}
+
+.iconeClima {
+  width: 60px;
+  margin: 5px 0;
+  filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.1));
+}
+
+.descricaoClima {
+  text-transform: capitalize;
+  font-size: 0.9rem;
+  height: 35px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  color: #aaa;
+}
+
+.minMaxTemp {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.minMaxTemp .max {
+  font-weight: bold;
+  color: #00bcd4;
+}
+
+.minMaxTemp .min {
+  color: #888;
+  margin-left: 5px;
+}
