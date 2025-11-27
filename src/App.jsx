@@ -10,6 +10,7 @@ function App() {
   const inputRef = useRef();
 
   async function buscarCidade() {
+    const chaveWeather= "8ff4d1979626b3809f99e0e91e397f3b"
     const cidade = inputRef.current.value;
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=${chaveWeather}&lang=pt_br&units=metric`;
     const urlCincoD = `https://api.openweathermap.org/data/2.5/forecast?q=${cidade}&appid=${chaveWeather}&lang=pt_br&units=metric`;
