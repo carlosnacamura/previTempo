@@ -3,7 +3,8 @@ import axios from "axios";
 import "./App.css";
 import InformacaoClima from "./componentes/InformacaoiClima/InformacaoClima";
 import InformacaoClimaCincoD from "./componentes/InformacaoiClimaCincoD/InformacaoClimaCincoD";
-
+// Set-ExecutionPolicy RemoteSigned
+// npm install
 function App() {
   const [clima, setClima] = useState();
   const [climaCincoD, setClimaCincoD] = useState();
