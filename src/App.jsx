@@ -31,7 +31,6 @@ function App() {
     <div className="container">
       <h1>PreviTempo</h1>
 
-      {/* NOVIDADE: Adicionado o wrapper input-group para layout flex no CSS */}
       <div className="input-group">
         <input ref={inputRef} type="text" placeholder="Buscar cidade" />
         <button onClick={buscarCidade}>Buscar</button>
